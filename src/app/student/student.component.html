@@ -1,0 +1,7 @@
+<div *ngIf="student">
+  Student : <a href="#" (click)="clicked()">{{student?.name}}</a>
+  <div *ngIf="student?.isJedi">
+    jedi temple : {{student?.temple}}
+
+  </div>
+</div >
